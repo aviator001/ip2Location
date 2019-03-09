@@ -12,13 +12,11 @@ ip2Location
 <div><i>Users IP Address</i></div>
 <h4>Format</h4>
 <div><i>String</i></div>
-
-
 <h3>Output</h3>
 <h4>Type</h4>
 <div><i>Location Object</i></div>
 <h4>Format</h4>
-<div><i>JSON String</i></div>
+<i>JSON String</i>
 <h4>Data Elements</h4>
 <div><i>city</i></div>
 <div><i>state</i></div>
