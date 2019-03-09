@@ -6,7 +6,7 @@
 	terrawire.vom is a free IP to Location geo database providing accuracies that are comparable to commercially available services. Whats more is that it is updated daily and there are no usage rate restrictions.<br><br>
 	Since terrawire.com is a US based publically available service hosted by a legacy research foundation, there will never be any cost associated with this IP2Location, and neither will you need to fulfill ridculous registration and authentication requests, nor will you ever be rudely thrown out for exceeding a certain number of hits that exceeds your daily or monthly quota.
 <br><br>
-	The terrawire.com public database is updated each day at midnight, to ensure that it continually provide accurate results for IP based location data lookups.
+	The terrawire.com public database is updated each day at midnight, to ensure that it continually provide accurate results for IP based location data lookups, in a free, stable and consistent manner, for years to come.
 </div>
 
 <h1>METHODS</h1>
