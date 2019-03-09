@@ -1,4 +1,23 @@
 ip2Location
+<h1>METHODS</h1>
+<h2>Method Name</h2>
+<div>locate()</div>
+<h2>Input Parameter</h2>
+<div><i>String IPv4 Address, Optional</i></div>
+<h2>Functionality</h2>
+<div><i>Converts a users IPv4 address into its location</i></div>
+<h2>Output</h2>
+<div><i>JSON String containing location data</i></div>
+
+
+<h2>Method Name</h2>
+<div>getIP()</div>
+<h2>Input Parameter</h2>
+<div><i>None</i></div>
+<h2>Functionality</h2>
+<div><i>Get a remote users public IPv4 address</i></div>
+<h2>Output</h2>
+<div><i>String users public IPv4 Address</i></div>
 
 <h1>USAGE</h1>
 <h2>Example 1</h2>
