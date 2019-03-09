@@ -51,14 +51,15 @@ $ip=$data->ip;
 
 <code><pre>
 
-/* CODE, all together is: */
-/* Its just 5 line of code, really */
+/*
+  	CODE, all together is:
+	Its just 5 line of code, really
+*/
 
-
-  include "class/ip.locate.class.php";
+  	include "class/ip.locate.class.php";
 	$ip=new ipLocate;
 	$result=$ip->locate();
-  $data=json_decode($result);
-  echo $location=$data->city . " " . $data->state;
- </pre>
- </code>
+  	$data=json_decode($result);
+  	echo $location=$data->city . " " . $data->state;
+ 
+ </pre></code>
