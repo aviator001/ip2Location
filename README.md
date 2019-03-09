@@ -49,6 +49,7 @@ $lat=$data->lat;
 $lng=$data->lng;
 $ip=$data->ip;
 
+<code>
 /* CODE, all together is: */
 /* Its just 5 line of code, really */
 
@@ -57,4 +58,4 @@ $ip=$data->ip;
 	$result=$ip->locate();
   $data=json_decode($result);
   echo $location=$data->city . " " . $data->state;
-  
+ </code>
