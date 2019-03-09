@@ -14,6 +14,45 @@ ip2Location
 <div><i>String</i></div>
 
 
+<h3>Output</h3>
+<h4>Type</h4>
+<div><i>Location Object</i></div>
+<h4>Format</h4>
+<div><i>JSON String</i></div>
+<h4>Data Elements</h4>
+<div><i>city</i></div>
+<div><i>state</i></div>
+<div><i>zip</i></div>
+<div><i>lat</i></div>
+<div><i>lng</i></div>
+<div><i>ip</i></div>
+
+<h2>Example 2</h2>
+<h3>Function Name</h3>
+<div>Object->locate(<i>User IP Address</i>)</div>
+<h4>Description</h4>
+<div>When an IP is passed, it returns the location associated with that IP</div>
+
+<h3>Input Parameter</h3>
+<h4>Type</h4>
+<div><i>Users IP Address</i></div>
+<h4>Format</h4>
+<div><i>String</i></div>
+
+<h3>Output</h3>
+<h4>Type</h4>
+<div><i>Location Object</i></div>
+<h4>Format</h4>
+<div><i>JSON String</i></div>
+<h4>Data Elements</h4>
+<div><i>city</i></div>
+<div><i>state</i></div>
+<div><i>zip</i></div>
+<div><i>lat</i></div>
+<div><i>lng</i></div>
+<div><i>ip</i></div>
+
+
 
 <h1>USAGE 2</h1>
 <H2>IP Address required</H2>
