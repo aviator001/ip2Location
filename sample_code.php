@@ -10,10 +10,14 @@ include "class/ip.locate.class.php";
 $ip=new ipLocate;
 
 /* call the locate method, which auto detects the users IP address and then converts it into a location array */
-$resuiplt=$ip->getIP();
+try {
+    $resuiplt=$ip->getIP();
+} catch (Exception $e) {
+    echo 'Caught exception: ',  $e->getMessage(), "\n";
+}
 
 /* Debug Output */
-$p->show($data);
+$ip->show($data);
 
 /* Code Sample 2 in PHP */
 /* OBJECTIVE */
@@ -26,7 +30,11 @@ include "class/ip.locate.class.php";
 $ip=new ipLocate;
 
 /* call the locate method, and pass in the IP address we want to covert into a location */
-$result=$ip->locate('104.32.52.60');
+try {
+    $result=$ip->locate('104.32.52.60');
+} catch (Exception $e) {
+    echo 'Caught exception: ',  $e->getMessage(), "\n";
+}
 
 /* Decodee JSON into an array */
 $data=json_decode($result);
@@ -35,7 +43,7 @@ $data=json_decode($result);
 echo $location=$data->city . " " . $data->state;
 
 /* Debug Output */
-$p->show($data);
+$ip->show($data);
 
 /* Code Sample 3 in PHP */
 /* OBJECTIVE */
@@ -48,7 +56,11 @@ include "class/ip.locate.class.php";
 $ip=new ipLocate;
 
 /* call locate method with no input, making it auto detect the IP address and then converting into a array of location info* /
-$result=$ip->locate();
+try {
+    $result=$ip->locate();
+} catch (Exception $e) {
+    echo 'Caught exception: ',  $e->getMessage(), "\n";
+}
 
 /* Decodee JSON into an array */
 $data=json_decode($result);
@@ -57,4 +69,4 @@ $data=json_decode($result);
 echo $location=$data->city . " " . $data->state;
 
 /* Debug Output */
-$p->show($data);
+$ip->show($data);
