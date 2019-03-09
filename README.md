@@ -1,6 +1,7 @@
 ip2Location
 
-<div>USAGE 1: IP Address optional</div>
+<h1>USAGE 1</h1>
+<div>IP Address optional</div>
 <div>When no IP is passed, it automatically detects the remote users IP and uses that uip value</div>
 
 /*USAGE 2: Pass IP Address*/
