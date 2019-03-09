@@ -2,7 +2,7 @@ ip2Location
 <h1>METHODS</h1>
 <h2>Method 1</h2>
 <h3>Name</h3>
-<div style="color:maroon">locate()</div>
+<div><i>locate()</i></div>
 <h3>Objective</h3>
 <div><i>Converts a users IPv4 address into its location</i></div>
 <h3>Input Parameter</h3>
@@ -12,7 +12,7 @@ ip2Location
 
 <h2>Method 2</h2>
 <h3>Name</h3>
-<div style="color:maroon">getIP()</div>
+<div><i>getIP()</i></div>
 <h3>Objective</h3>
 <div><i>Get a remote users public IPv4 address</i></div>
 <h3>Input Parameter</h3>
