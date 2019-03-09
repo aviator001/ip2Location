@@ -1,13 +1,19 @@
 ip2Location
 
-<h1>USAGE 1</h1>
-<div>IP Address optional</div>
+<h1>USAGE</h1>
+<h2>Example 1</h2>
+<h3>Function Name</h3>
+<div>Object->locate()</div>
+<h3>Input Parameter</h3>
+<div>Users IP Address, string format</div>
 <div>When no IP is passed, it automatically detects the remote users IP and uses that uip value</div>
 
-/*USAGE 2: Pass IP Address*/
-/*It will provide the location for the IP address passed*/
 
-/*USAGE 3: Pass IP Address*/
+<h1>USAGE 2</h1>
+<H2>IP Address required</H2>
+<div>To lookup a users location, we can pass their IP address to the object, which will then return the users loxation</div>
+
+/*USAGE 2: Pass IP Address*/
 /*It will provide the location for the IP address passed*/
 
 /*Instantiate Library*/
