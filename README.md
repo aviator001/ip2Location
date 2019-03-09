@@ -17,13 +17,6 @@ ip2Location
 <div><i>Location Object</i></div>
 <h4>Format</h4>
 <i>JSON String</i>
-<h4>Data Elements</h4>
-<div><i>city</i></div>
-<div><i>state</i></div>
-<div><i>zip</i></div>
-<div><i>lat</i></div>
-<div><i>lng</i></div>
-<div><i>ip</i></div>
 
 <h2>Example 2</h2>
 <h3>Function Name</h3>
@@ -42,7 +35,13 @@ ip2Location
 <div><i>Associative Array of location data points</i></div>
 <h4>Format</h4>
 <div><i>JSON String</i></div>
-<h4>Data Elements</h4>
+
+<h1>OUTPUT</h1>
+<h2>Type</h2>
+<div><i>Users location data such as city, state, latitude etc</i></div>
+<h2>Format</h2>
+<div><i>JSON String</i></div>
+<h2>Data Elements</h2>
 <ul>
 <li><i>city</i></li>
 <li><i>state</i></li>
@@ -51,7 +50,9 @@ ip2Location
 <li><i>lng</i></li>
 <li><i>ip</i></li>
 </ul>
-<h1>Sample Code</h1>
+
+
+<h1>SAMPLE CODE</h1>
 <h2>Code Sample 1 in PHP</h2>
 
 	/* Instantiate Library */
