@@ -137,3 +137,23 @@
 	/* Prase individual data poinst and echo output */
   	echo $location=$data->city . " " . $data->state;
  
+<h2>Code Sample 4 in PHP</h2>
+
+	/* DEBUGGING OUTPUT */
+	/* To see the full list of data elemnts returned, simply debug/print the output associative array */
+
+	/* But first, we instantiate Library */
+  	include "class/ip.locate.class.php";
+	
+	/* Create New Object fron library */
+	$ip=new ipLocate;
+
+	/* call locate method with no input, making it auto detect the IP address and then converting into a array of location info* /
+	$result=$ip->locate();
+  	
+	/* Decode JSON into an array */
+	$data=json_decode($result);
+	
+	/* Debug Output */
+	$ip->show($data);
+	
