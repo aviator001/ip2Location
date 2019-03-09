@@ -5,7 +5,7 @@ class ipLocate {
 		$location=file_get_contents("http://terrawire.com:8080/$ip");
 		return $location;
 	}
-	private function getIP() {
+	public function getIP() {
 		$client  = @$_SERVER['HTTP_CLIENT_IP'];
 		$forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
 		$remote  = $_SERVER['REMOTE_ADDR'];
@@ -21,6 +21,10 @@ class ipLocate {
 		}
 		return $ip;
 	}
-
+	public function show($obj) {
+		echo "<pre>";	
+			print_r($obj);
+		echo "</pre>";	
+	}
 }
 
