@@ -12,7 +12,7 @@ ip2Location
 /*Instantiate Library*/
   include "class/ip.locate.class.php";
 	$ip=new ipLocate;
-
+<br><br><br>
 /*CODE USAGE 1:*/
 	$result1=$ip->locate();
 
