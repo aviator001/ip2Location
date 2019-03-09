@@ -3,7 +3,7 @@ ip2Location
 <h1>USAGE</h1>
 <h2>Example 1</h2>
 <h3>Function Name</h3>
-<div>Object->locate()</div>
+<div>Object->locate(<i>Optional IP Address</i>)</div>
 <h3>Input Parameter</h3>
 <div>Users IP Address, string format</div>
 <div>When no IP is passed, it automatically detects the remote users IP and uses that uip value</div>
