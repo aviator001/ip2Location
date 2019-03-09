@@ -1,6 +1,7 @@
 ip2Location
 <h1>METHODS</h1>
-<h2>Method Name</h2>
+<h2>Method 1</h2>
+<h3>Name</h3>
 <div>locate()</div>
 <h2>Input Parameter</h2>
 <div><i>String IPv4 Address, Optional</i></div>
