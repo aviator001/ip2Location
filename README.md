@@ -9,7 +9,7 @@ ip2Location
 
 <h3>Input Parameter</h3>
 <h4>Type</h4>
-<div><i>Users IP Address</i></div>
+<i>Users IP Address</i>
 <h4>Format</h4>
 <div><i>String</i></div>
 <h3>Output</h3>
