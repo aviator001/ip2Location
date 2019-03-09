@@ -39,86 +39,36 @@ ip2Location
 
 <h3>Output</h3>
 <h4>Type</h4>
-<div><i>Location Object</i></div>
+<div><i>Associative Array of location data points</i></div>
 <h4>Format</h4>
 <div><i>JSON String</i></div>
 <h4>Data Elements</h4>
-<div><i>city</i></div>
-<div><i>state</i></div>
-<div><i>zip</i></div>
-<div><i>lat</i></div>
-<div><i>lng</i></div>
-<div><i>ip</i></div>
+<ul>
+<li><i>city</i></li>
+<li><i>state</i></li>
+<li><i>zip</i></li>
+<li><i>lat</i></li>
+<li><i>lng</i></li>
+<li><i>ip</i></li>
+</ul>
+<h1>Sample Output</h1>
 
 
+<h1>Sample Code</h1>
+<h2>Code Samples in PHP</h2>
 
-<h1>USAGE 2</h1>
-<H2>IP Address required</H2>
-<div>To lookup a users location, we can pass their IP address to the object, which will then return the users loxation</div>
-
-/*USAGE 2: Pass IP Address*/
-/*It will provide the location for the IP address passed*/
-
-/*Instantiate Library*/
-  include "class/ip.locate.class.php";
-	$ip=new ipLocate;
-<br><br><br>
-/*CODE USAGE 1:*/
-	$result1=$ip->locate();
-
-/*CODE USAGE 2:*/
-  $result2=$ip->locate('8.8.8.8');
-
-/*CODE USAGE 3:*/
-  $result3=$ip->locate('45.56.150.112');
-
-/*Thats all the code thats needed to get results.*/
-/* HANDLING RETURN DATA: */
-
-/*Convert returned JSN string into an associative array*/
-
-$data=json_decode($result1)[0];
-
-/*or*/
-
-$data=json_decode($result2)[0];
-
-/*or*/
-
-$data=json_decode($result3)[0];
-
-/* Get Individual data points such as:
-1. city
-2. state
-3. zip
-4. lat
-5. lng
-6. ip
-
-*/
-
-/*
-Finally,to parse above data, we would do like so:
-*/
-
-$city=$data->city;
-$state=$data->state;
-$zip=$data->zip;
-$lat=$data->lat;
-$lng=$data->lng;
-$ip=$data->ip;
-
-<code><pre>
-
-/*
-  	CODE, all together is:
-	Its just 5 line of code, really
-*/
-
+	/* Instantiate Library */
   	include "class/ip.locate.class.php";
+	
+	/* Create New Object fron library */
 	$ip=new ipLocate;
+
+	/* call the locate method, which auto detects the users IP address and then converts it into a location array */
 	$result=$ip->locate();
-  	$data=json_decode($result);
+  	
+	/* Decodee JSON into an array */
+	$data=json_decode($result);
+	
+	/* Prase individual data poinst and echo output */
   	echo $location=$data->city . " " . $data->state;
  
- </pre></code>
