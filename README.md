@@ -1,8 +1,8 @@
 <h1>INTRODUCTION</h1>
 <div>The IP2Location Object is a light weight and fast object, whos primary objective is to determine a users location, by optionally detecting their public IP address, and then converting it into a location.
-	<br>
+	<br><br>
 <div>The object gets its location data in real-time with each call, from the terraire.com geolocation network; Since terrawire.com is a US based publically available service, there will never be any cost associated with this IP2Location, and neither will you need to fulfill ridculous registrationa nd authentication requets, nor will you be rudely thrown out for wxceeding a certain number of hits.
-<br>
+<br><br>
 	The terrawire.com public database is updated each day at midnight, to ensure that it is providing accurate results
 </div>
 
