@@ -4,9 +4,15 @@ ip2Location
 <h2>Example 1</h2>
 <h3>Function Name</h3>
 <div>Object->locate(<i>Optional IP Address</i>)</div>
-<h3>Input Parameter</h3>
-<div>Users IP Address, string format</div>
+<h4>Description</h4>
 <div>When no IP is passed, it automatically detects the remote users IP and uses that uip value</div>
+
+<h3>Input Parameter</h3>
+<h4>Type</h4>
+<div><b>Users IP Address</b></div>
+<h4>Format</h4>
+<div><i>String</i></div>
+
 
 
 <h1>USAGE 2</h1>
