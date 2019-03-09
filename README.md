@@ -51,11 +51,25 @@ ip2Location
 <li><i>lng</i></li>
 <li><i>ip</i></li>
 </ul>
-<h1>Sample Output</h1>
-
-
 <h1>Sample Code</h1>
-<h2>Code Samples in PHP</h2>
+<h2>Code Sample 1 in PHP</h2>
+
+	/* Instantiate Library */
+  	include "class/ip.locate.class.php";
+	
+	/* Create New Object fron library */
+	$ip=new ipLocate;
+
+	/* call the locate method, which auto detects the users IP address and then converts it into a location array */
+	$result=$ip->locate();
+  	
+	/* Decodee JSON into an array */
+	$data=json_decode($result);
+	
+	/* Prase individual data poinst and echo output */
+  	echo $location=$data->city . " " . $data->state;
+ 
+<h2>Code Sample 2 in PHP</h2>
 
 	/* Instantiate Library */
   	include "class/ip.locate.class.php";
