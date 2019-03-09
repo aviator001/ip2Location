@@ -100,7 +100,7 @@
 <h2>Code Sample 2 in PHP</h2>
 	
 	/* OBJECTIVE */
-	/* In this example, we are going to convert a users given IP address into location */
+	/* Here we are going to convert a users given IP address into location */
 	
 	/* Instantiate Library */
   	include "class/ip.locate.class.php";
@@ -120,7 +120,8 @@
 <h2>Code Sample 3 in PHP</h2>
 
 	/* OBJECTIVE */
-	/* In this example, we are going to get the location for a user visiting for the first time, ie no IP address given */
+	/* In this example, we are going to get the location for a user who is */
+	/* visiting for the first time, ie no IP address given */
 
 	/* Instantiate Library */
   	include "class/ip.locate.class.php";
@@ -128,7 +129,8 @@
 	/* Create New Object fron library */
 	$ip=new ipLocate;
 
-	/* call locate method with no input, making it auto detect the IP address and then converting into a array of location info* /
+	/* call locate method with no input, making it auto detect the */
+	/* IP address and then converting into a array of location info */
 	$result=$ip->locate();
   	
 	/* Decode JSON into an array */
@@ -148,7 +150,8 @@
 	/* Create New Object fron library */
 	$ip=new ipLocate;
 
-	/* call locate method with no input, making it auto detect the IP address and then converting into a array of location info* /
+	/* call locate method with no input, making it auto detect the IP address */
+	/* and then converting into a array of location info* /
 	$result=$ip->locate();
   	
 	/* Decode JSON into an array */
