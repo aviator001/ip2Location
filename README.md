@@ -118,6 +118,7 @@
   	echo $location=$data->city . " " . $data->state;
  
 <h2>Code Sample 3 in PHP</h2>
+
 	/* OBJECTIVE */
 	/* In this example, we are going to get the location for a user visiting for the first time, ie no IP address given */
 
