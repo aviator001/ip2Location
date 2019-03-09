@@ -1,5 +1,5 @@
 <h1>INTRODUCTION</h1>
-<div>The IP2Location Object is a asynchronous and multi-threaded light weight and fast PHP object, whos primary objective is to determine a users location, by optionally detecting their public IP address, and then converting it into a location.
+<div>The IP2Location Object is a super fast asynchronous and multi-threaded light weight PHP object, whos primary objective is to determine a users location, by optionally detecting their public IP address, and then converting it into a location.
 	<br><br>
 <div>The object gets its location data in real-time with each call, from the terraire.com geolocation network; Since terrawire.com is a US based publically available service hosted by a legacy research foundation, there will never be any cost associated with this IP2Location, and neither will you need to fulfill ridculous registration and authentication requests, nor will you ever be rudely thrown out for exceeding a certain number of hits that exceeds your daily or monthly quota.
 <br><br>
