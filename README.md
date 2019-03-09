@@ -1,7 +1,7 @@
 <h1>INTRODUCTION</h1>
 <div>The IP2Location Object is a super fast asynchronous and multi-threaded light weight PHP object, whos primary objective is to determine a users location, by optionally detecting their public IP address, and then converting it into a location.
 	<br>
-<div>This commercial grade yet 100% free object/service gets its location data in real-time with each call, from the terraire.com geolocation network;</div><br>
+<br><div>This commercial grade yet 100% free object/service gets its location data in real-time with each call, from the terraire.com geolocation network;</div><br>
 	<b>API Endpoint:</b> http://terrawire.com:8080/<br><br>
 	terrawire.vom is a free IP to Location geo database providing accuracies that are comparable to commercially available services. Whats more is that it is updated daily and there are no usage rate restrictions.<br><br>
 	Since terrawire.com is a US based publically available service hosted by a legacy research foundation, there will never be any cost associated with this IP2Location, and neither will you need to fulfill ridculous registration and authentication requests, nor will you ever be rudely thrown out for exceeding a certain number of hits that exceeds your daily or monthly quota.
