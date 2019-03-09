@@ -10,14 +10,14 @@ ip2Location
 <h3>Output</h3>
 <div><i>JSON String containing location data</i></div>
 
-
-<h2>Method Name</h2>
+<h2>Method 2</h2>
+<h3>Name</h3>
 <div>getIP()</div>
-<h2>Input Parameter</h2>
+<h3>Input Parameter</h3>
 <div><i>None</i></div>
-<h2>Functionality</h2>
+<h3>Functionality</h3>
 <div><i>Get a remote users public IPv4 address</i></div>
-<h2>Output</h2>
+<h3>Output</h3>
 <div><i>String users public IPv4 Address</i></div>
 
 <h1>USAGE</h1>
