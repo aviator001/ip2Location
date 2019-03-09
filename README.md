@@ -3,11 +3,11 @@ ip2Location
 <h2>Method 1</h2>
 <h3>Name</h3>
 <div>locate()</div>
-<h2>Input Parameter</h2>
+<h3>Input Parameter</h3>
 <div><i>String IPv4 Address, Optional</i></div>
-<h2>Functionality</h2>
+<h3>Functionality</h3>
 <div><i>Converts a users IPv4 address into its location</i></div>
-<h2>Output</h2>
+<h3>Output</h3>
 <div><i>JSON String containing location data</i></div>
 
 
