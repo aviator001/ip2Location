@@ -26,21 +26,30 @@ ip2Location
 /* HANDLING RETURN DATA: */
 
 /*Convert returned JSN string into an associative array*/
+
 $data=json_decode($result1)[0];
+
 /*or*/
+
 $data=json_decode($result2)[0];
+
 /*or*/
+
 $data=json_decode($result3)[0];
 
-/*Get Individual data points such as:
+/* Get Individual data points such as:
 1. city
 2. state
 3. zip
 4. lat
 5. lng
 6. ip
+
 */
-/*Finally,to parse above data, we would do like so:*/
+
+/*
+Finally,to parse above data, we would do like so:
+*/
 
 $city=$data->city;
 $state=$data->state;
